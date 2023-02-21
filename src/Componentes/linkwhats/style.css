@@ -1,0 +1,165 @@
+.background{
+    background-color:  rgb(9, 3, 3);
+    max-height: 600px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.background .linkContent {
+
+
+    height: 100%;
+    max-height: 500px ;
+    width: 100%;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: 100% 100%;
+    background: #ffffff;
+   background: linear-gradient(138deg, #b8b6b6 22%, #000000 80%);
+    background: -webkit-linear-gradient(138deg, #b8b6b6 22%, #000000 80%);
+    background: -moz-linear-gradient(138deg, #b8b6b6 22%, #000000 80%);
+    border: 2px solid rgba(44, 44, 44, 0.721);
+   
+}
+.linkContent h3 {
+
+    font-size: 26px;
+    font-style:italic ;
+    font-family: sans-serif;
+    color:  #ffefef;
+    text-shadow: rgba(255, 255, 255, 0.776) 3px 3px 8px;
+    padding: 10px 100px;
+    background-color: #000000;;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-family: 'Staatliches', cursive;
+    margin-top: 20px;
+}
+
+.whats {
+    padding-left: 60px;
+    width: 300px;
+    height: 300px ;
+}
+
+.whats img{
+
+    width: 300px;
+    height: 300px;
+    
+}
+.whats img:hover {
+
+    transform: scale(1.1)   ;
+
+    transition: all 0.4s ease-in-out;
+}
+
+.linkContent2 { 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: row;
+
+
+}
+.linkContent2 button {
+
+    font-size: 18px ;
+    padding: 16px;
+    margin-top: 60px;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+    
+}
+.linkContent2 a {
+    color: #000000;
+    text-decoration: none
+}
+
+.linkContent2 button:hover,.linkContent2 button:hover a  {
+    background-color: #000000;
+      color: #ffffff;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
+.linkContent2 p {
+      font-size: 20px;
+    color: rgb(255, 249, 249);
+    text-shadow: black 3px 3px 10px;
+}
+
+.linkContent2 span {
+
+     color: #000000 ;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .whats img {
+       display: none;
+       overflow: hidden;
+   }
+   .linkContent h3 {
+
+    font-size: 18px;
+}
+   
+}
+
+
+@media (max-width: 1024px) {
+
+    .whats img {
+       display: none;
+       overflow: hidden;
+   }
+   .linkContent {
+       width: 250px;
+       padding: 30px;
+       margin: 50px;
+   }
+   .linkContent2 {
+    flex-direction: column;
+      margin: 50px auto ;
+   }
+
+}
+
+@media (max-width: 430px) {
+
+.linkContent {
+       width: 150px;
+       margin: 50px;
+       padding: 18px ;
+   }
+
+}
+
+@media (max-width: 350px) {
+
+    .linkContent {
+        width: 100px;
+        margin: 10px;
+        padding: 16px ;
+    }
+    .linkContent h3 {
+
+        font-size: 16px;
+    }
+ 
+ }

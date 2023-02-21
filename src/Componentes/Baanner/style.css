@@ -1,0 +1,53 @@
+
+section{
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    height: 100vh;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4 ;
+   
+}
+.conteudo{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.conteudo h1 {
+
+    font-size: 65px;
+    font-family: 'Didot';
+    margin-bottom: 3
+    0px;
+    
+
+}
+
+.conteudo p {
+
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+@media(max-width: 390px) {
+
+    .conteudo h1 {
+        font-size: 50px;
+    }
+} 

@@ -54,7 +54,7 @@ function Serviços() {
                         </div>
                         </div>
                       <div className="card">
-                        <img src="./assets/corrente-prata.jpg"alt="Produto"/>
+                        <img src="./assets/corrente-prata.jpg" alt="Produto"/>
                         <div class="container">
                         <p className="title">Corrente Figaro 3x1 Prata Italiana 60cm e 6mm</p>
                         <p>Com um design clássico, a corrente apresenta um padrão de elos 3x1, onde tres elos pequenos são intercalados por um elo maior, resultando em um estilo único e atraente.
@@ -72,7 +72,7 @@ function Serviços() {
                         </div>
                         </div>
                       <div className="card">
-                        <img src="./assets/Sem título.png"alt="Produto"/>
+                        <img src="./assets/Sem título.png" alt="Produto"/>
                         <div class="container">
                         <p className="title" >Corrente veneziana de prata Italiana 60cm </p>
                         <p>Uma corrente veneziana de prata italiana pode durar por muitos anos, tornando-se uma peça clássica e valiosa em sua coleção de joias.

@@ -63,7 +63,7 @@ function Serviços() {
                         </div>
                         </div>
                       <div className="card">
-                        <img src="./assets/Pulseira.jpg" alt="Produto"/>
+                        <img src="./assets/pulseira.jpg" alt="Produto"/>
                         <div class="container">
                         <p className="title" >Pulseira de Prata Italiana 20cm </p>
                         <p>A pulseira de Prata Italiana apresenta um design clássico, tornando-a uma opção atemporal e elegante para diversas ocasiões.

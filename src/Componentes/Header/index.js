@@ -5,7 +5,7 @@ function Topo() {
     return(
     <header>
         <div className="LimitadorSecao">
-          <img src='./assets/logocyber.jpg'/>
+          <img src='./assets/logo yber.jpg'/>
           <nav>
             <a href="#Sobre">Sobre</a>
             <a href="#Servico">Mais vendidos </a>
